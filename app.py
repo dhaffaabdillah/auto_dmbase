@@ -2,7 +2,7 @@ import administrator_data
 from twitter import Twitter
 from time import sleep
 
-
+#AUTO DM BASE For Wandek
 def Start():
     print("Starting program...")
     dms = list()
