@@ -20,9 +20,9 @@ Notify_queueMessage = "Menfess kamu berada pada urutan ke-{}, akan terkirim seki
 
 Notify_sent = True
 # bool, True: Send menfess tweet link to sender when menfess sent
-Notify_sentMessage = "Yeay! Menfess kamu telah terkirim! https://twitter.com/{}/status/"
+Notify_sentMessage = "Hore! Menfess kamu sukses terkirim! https://twitter.com/{}/status/"
 # Please keep the "{}" format -> .format(bot username) + postid
-Notify_sentFail1 = "Maaf ada kesalahan pada sistem :( \ntolong screenshot & laporkan kepada admin"
+Notify_sentFail1 = "Maaf ada kesalahan pada sistem :( \ntolong screenshot & laporkan kepada admin @dhaffabdillah "
 # Used when error is happened in system
 Notify_sentFail2 = "ketentuan Triggerword menfess kamu tidak sesuai!"
 # Used when sender sends menfess that ignored by algorithms
@@ -124,7 +124,7 @@ Account_status = True
 # You can switch it using 'set! switch on/off' command from DM
 # If there are messages on DM when turned off, those will be posted when this bot switched to on
 
-Trigger_word = ["fess!", "blablabla!"]
+Trigger_word = ["fess!", "blablabla!", "vhs!"]
 Notify_wrongTrigger = "Keyword yang kamu kirim salah!"
 Sensitive_word = "/sensitive"
 # Used when sender send sensitive content, order them to use this word
