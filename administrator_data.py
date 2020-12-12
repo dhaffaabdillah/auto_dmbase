@@ -124,7 +124,7 @@ Account_status = True
 # You can switch it using 'set! switch on/off' command from DM
 # If there are messages on DM when turned off, those will be posted when this bot switched to on
 
-Trigger_word = ["fess!", "blablabla!", "vhs!"]
+Trigger_word = ["fess!", "wandeks;", "vhs!"]
 Notify_wrongTrigger = "Keyword yang kamu kirim salah!"
 Sensitive_word = "/sensitive"
 # Used when sender send sensitive content, order them to use this word
