@@ -108,13 +108,13 @@ Keep_DM = False
 #     sleep(60)
 # for id in ids: api.destroy_direct_message(id)
 
-Database = True 
+Database = False 
 # bool, True: Using database (Push simple txt to github every midnight),
 # You can directly update using 'set! db_update' command from DM
 # Github_token and Github_repo are not required when Database is False
-Github_token = "244170bb378780e9c8c8cd8bb2c74d9e07a21cf6"
+Github_token = "****"
 # get it from https://github.com/settings/tokens , set allow for editing repo
-Github_repo = "haffaabdillah/auto_dmbase"
+Github_repo = "username/your_repo"
 # Make a repository first, then fill the Github_repo
 # use another repo instead of primary repo
 
