@@ -1,5 +1,3 @@
-
-
 import administrator_data
 import tmp
 from tweepy import OAuthHandler, API, Cursor
