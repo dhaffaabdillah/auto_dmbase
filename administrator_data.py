@@ -114,7 +114,7 @@ Database = True #04e326e35596b62bf4ff3b6fb234aab110a8cffc (token)
 # Github_token and Github_repo are not required when Database is False
 Github_token = "04e326e35596b62bf4ff3b6fb234aab110a8cffc"
 # get it from https://github.com/settings/tokens , set allow for editing repo
-Github_repo = "https://github.com/dhaffaabdillah/auto_dmbase"
+Github_repo = "dhaffaabdillah/auto_dmbase"
 # Make a repository first, then fill the Github_repo
 # use another repo instead of primary repo
 
@@ -124,13 +124,13 @@ Account_status = True
 # You can switch it using 'set! switch on/off' command from DM
 # If there are messages on DM when turned off, those will be posted when this bot switched to on
 
-Trigger_word = ["fess!", "wandeks;", "vhs!"]
+Trigger_word = ["fess!", "wandeks;", "vhs!", "curhat;", "pr:"]
 Notify_wrongTrigger = "Keyword yang kamu kirim salah!"
 Sensitive_word = "/sensitive"
 # Used when sender send sensitive content, order them to use this word
 # But I advise against sending sensitive content, Twitter may ban your account,
 # And using this bot for 'adult' base is strictly prohibited.
-Blacklist_words = ['covid', 'blablabla']
+Blacklist_words = ['covid', 'gblk', 'goblok', 'tolol', 'tll', 'anjing', 'ajg', 'asu', 'anjg', 'asu']
 Admin_cmd = "set!"  # exec command in Dict_adminCmd
 User_cmd = "user!" # exec command in Dict_userCmd
 
