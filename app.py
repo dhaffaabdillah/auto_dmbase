@@ -138,7 +138,7 @@ def Start():
 
                 except Exception as ex:
                     print(ex)
-                    sleep(1)
+                    sleep(10)
                     pass
 
             dms = list()
@@ -146,8 +146,8 @@ def Start():
         else:
             dms = tw.read_dm()
             if len(dms) == 0:
-                print("Direct message is empty, sleeping for 0s...")
-                sleep(1)
+                print("Direct message is empty, sleeping for 10s...")
+                sleep(10)
 
 
 def Check_file_github(new=True):
