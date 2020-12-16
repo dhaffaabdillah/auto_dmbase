@@ -146,8 +146,8 @@ def Start():
         else:
             dms = tw.read_dm()
             if len(dms) == 0:
-                print("Direct message is empty, sleeping for 30s...")
-                sleep(30)
+                print("Direct message is empty, sleeping for 0s...")
+                sleep(1)
 
 
 def Check_file_github(new=True):
