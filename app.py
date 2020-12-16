@@ -138,7 +138,7 @@ def Start():
 
                 except Exception as ex:
                     print(ex)
-                    sleep(30)
+                    sleep(1)
                     pass
 
             dms = list()
