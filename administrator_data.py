@@ -73,7 +73,7 @@ Watermark_image = False # bool or str
 # bool, True: Add watermark using default image. str, file_path e.g 'watermark/photo.png'
 # the default image path is 'watermark/photo.png'
 # You can change default image and font in watermark folder
-Watermark_text = "lorem ipsum"
+Watermark_text = "wandekfess"
 # If you won't to add text, fill str() or "" to Watermark_text.
 # You can add enter "\n", maximum: 2 lines
 Watermark_textColor = (100,0,0,1)
