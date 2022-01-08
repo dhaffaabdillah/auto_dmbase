@@ -67,7 +67,7 @@ Private_mediaTweet = True
 # 4 media or the space is not available, THE REST OF THE MEDIA WILL BE ATTACHED TO THE
 # SUBSEQUENT TWEETS IN SORTED ORDER.
 
-Watermark = False
+Watermark = True
 # bool, True: Add watermark text to sender's photo
 Watermark_image = False # bool or str
 # bool, True: Add watermark using default image. str, file_path e.g 'watermark/photo.png'
@@ -85,7 +85,7 @@ Watermark_position = ('right', 'bottom') # (x, y)
 # x: 'left', 'center', 'right'
 # y: 'top', 'center', 'bottom'
 
-Keep_DM = False
+Keep_DM = True
 # bool, True: DMs id will be stored on db_received
 # So, the messages are still exist on your DM.
 # ONLY MESSAGES SENT BY SENDER that still exist & will be stored.
@@ -124,13 +124,13 @@ Account_status = True
 # You can switch it using 'set! switch on/off' command from DM
 # If there are messages on DM when turned off, those will be posted when this bot switched to on
 
-Trigger_word = ["fess!", "wandeks;", "vhs!", "curhat;", "pr:"]
+Trigger_word = ["discuss!", "wandeks;", "vhs!", "curhat;", "pr:", "ask?"]
 Notify_wrongTrigger = "Keyword yang kamu kirim salah!"
 Sensitive_word = "/sensitive"
 # Used when sender send sensitive content, order them to use this word
 # But I advise against sending sensitive content, Twitter may ban your account,
 # And using this bot for 'adult' base is strictly prohibited.
-Blacklist_words = ['covid', 'gblk', 'goblok', 'tolol', 'tll', 'anjing', 'ajg', 'asu', 'anjg', 'asu']
+Blacklist_words = ['covid', 'gblk', 'goblok', 'tolol', 'tll', 'anjing', 'ajg', 'asu', 'anjg', 'asu', 'kntl', 'memek', 'mmk', 'm3m3k']
 Admin_cmd = "set!"  # exec command in Dict_adminCmd
 User_cmd = "user!" # exec command in Dict_userCmd
 
