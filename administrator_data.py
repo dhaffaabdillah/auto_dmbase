@@ -20,7 +20,7 @@ Notify_queueMessage = "Menfess kamu berada pada urutan ke-{}, akan terkirim seki
 
 Notify_sent = True
 # bool, True: Send menfess tweet link to sender when menfess sent
-Notify_sentMessage = "Asik, berhasil terkirim https://twitter.com/{}/status/"
+Notify_sentMessage = "Hore! Menfess kamu berhasil terkirim https://twitter.com/{}/status/"
 # Please keep the "{}" format -> .format(bot username) + postid
 Notify_sentFail1 = "Maaf ada kesalahan pada sistem :( \ntolong screenshot & laporkan kepada admin @dhaffabdillah "
 # Used when error is happened in system
@@ -56,7 +56,7 @@ Sender_requirements = False
 # bool, True: sender should pass the account requirements. Admin pass this filter
 Minimum_followers = 0 # int
 # Minimum-account-created-at
-Minimum_day = 0 # e.g 100, it means sender account must be created at 100 days ago
+Minimum_day = 10 # e.g 100, it means sender account must be created at 100 days ago
 Notify_senderRequirements = "Hmm, menfess dan akun kamu ngga sesuai sama peraturan base :("
 
 Private_mediaTweet = True
