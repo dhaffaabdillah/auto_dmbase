@@ -108,7 +108,7 @@ Keep_DM = True
 #     sleep(60)
 # for id in ids: api.destroy_direct_message(id)
 
-Database = True #04e326e35596b62bf4ff3b6fb234aab110a8cffc (token) 
+Database = False #04e326e35596b62bf4ff3b6fb234aab110a8cffc (token) 
 # bool, True: Using database (Push simple txt to github every midnight),
 # You can directly update using 'set! db_update' command from DM
 # Github_token and Github_repo are not required when Database is False
