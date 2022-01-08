@@ -20,7 +20,7 @@ Notify_queueMessage = "Menfess kamu berada pada urutan ke-{}, akan terkirim seki
 
 Notify_sent = True
 # bool, True: Send menfess tweet link to sender when menfess sent
-Notify_sentMessage = "Hore! Menfess kamu sukses terkirim! https://twitter.com/{}/status/"
+Notify_sentMessage = "Hore! Menfess kamu berhasil terkirim https://twitter.com/{}/status/"
 # Please keep the "{}" format -> .format(bot username) + postid
 Notify_sentFail1 = "Maaf ada kesalahan pada sistem :( \ntolong screenshot & laporkan kepada admin @dhaffabdillah "
 # Used when error is happened in system
@@ -56,7 +56,7 @@ Sender_requirements = False
 # bool, True: sender should pass the account requirements. Admin pass this filter
 Minimum_followers = 0 # int
 # Minimum-account-created-at
-Minimum_day = 0 # e.g 100, it means sender account must be created at 100 days ago
+Minimum_day = 10 # e.g 100, it means sender account must be created at 100 days ago
 Notify_senderRequirements = "Hmm, menfess dan akun kamu ngga sesuai sama peraturan base :("
 
 Private_mediaTweet = True
@@ -73,7 +73,7 @@ Watermark_image = False # bool or str
 # bool, True: Add watermark using default image. str, file_path e.g 'watermark/photo.png'
 # the default image path is 'watermark/photo.png'
 # You can change default image and font in watermark folder
-Watermark_text = "lorem ipsum"
+Watermark_text = "wandekfess"
 # If you won't to add text, fill str() or "" to Watermark_text.
 # You can add enter "\n", maximum: 2 lines
 Watermark_textColor = (100,0,0,1)
@@ -85,7 +85,7 @@ Watermark_position = ('right', 'bottom') # (x, y)
 # x: 'left', 'center', 'right'
 # y: 'top', 'center', 'bottom'
 
-Keep_DM = False
+Keep_DM = True
 # bool, True: DMs id will be stored on db_received
 # So, the messages are still exist on your DM.
 # ONLY MESSAGES SENT BY SENDER that still exist & will be stored.
@@ -108,13 +108,13 @@ Keep_DM = False
 #     sleep(60)
 # for id in ids: api.destroy_direct_message(id)
 
-Database = False 
+Database = True #04e326e35596b62bf4ff3b6fb234aab110a8cffc (token) 
 # bool, True: Using database (Push simple txt to github every midnight),
 # You can directly update using 'set! db_update' command from DM
 # Github_token and Github_repo are not required when Database is False
-Github_token = "****"
+Github_token = "04e326e35596b62bf4ff3b6fb234aab110a8cffc"
 # get it from https://github.com/settings/tokens , set allow for editing repo
-Github_repo = "username/your_repo"
+Github_repo = "dhaffaabdillah/auto_dmbase"
 # Make a repository first, then fill the Github_repo
 # use another repo instead of primary repo
 
@@ -124,13 +124,13 @@ Account_status = True
 # You can switch it using 'set! switch on/off' command from DM
 # If there are messages on DM when turned off, those will be posted when this bot switched to on
 
-Trigger_word = ["fess!", "wandeks;", "vhs!"]
+Trigger_word = ["discuss!", "wandeks;", "vhs!", "curhat;", "pr:", "ask?"]
 Notify_wrongTrigger = "Keyword yang kamu kirim salah!"
 Sensitive_word = "/sensitive"
 # Used when sender send sensitive content, order them to use this word
 # But I advise against sending sensitive content, Twitter may ban your account,
 # And using this bot for 'adult' base is strictly prohibited.
-Blacklist_words = ['covid', 'blablabla']
+Blacklist_words = ['covid', 'gblk', 'goblok', 'tolol', 'tll', 'anjing', 'ajg', 'asu', 'anjg', 'asu', 'kntl', 'memek', 'mmk', 'm3m3k']
 Admin_cmd = "set!"  # exec command in Dict_adminCmd
 User_cmd = "user!" # exec command in Dict_userCmd
 
