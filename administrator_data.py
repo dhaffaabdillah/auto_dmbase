@@ -112,7 +112,7 @@ Database = True #04e326e35596b62bf4ff3b6fb234aab110a8cffc (token)
 # bool, True: Using database (Push simple txt to github every midnight),
 # You can directly update using 'set! db_update' command from DM
 # Github_token and Github_repo are not required when Database is False
-Github_token = "04e326e35596b62bf4ff3b6fb234aab110a8cffc"
+Github_token = "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"
 # get it from https://github.com/settings/tokens , set allow for editing repo
 Github_repo = "dhaffaabdillah/auto_dmbase"
 # Make a repository first, then fill the Github_repo
