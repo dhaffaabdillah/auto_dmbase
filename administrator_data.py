@@ -67,7 +67,7 @@ Private_mediaTweet = True
 # 4 media or the space is not available, THE REST OF THE MEDIA WILL BE ATTACHED TO THE
 # SUBSEQUENT TWEETS IN SORTED ORDER.
 
-Watermark = True
+Watermark = False
 # bool, True: Add watermark text to sender's photo
 Watermark_image = False # bool or str
 # bool, True: Add watermark using default image. str, file_path e.g 'watermark/photo.png'
